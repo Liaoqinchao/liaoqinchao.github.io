@@ -2,59 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking lifet</title>
-    <link>http://localhost:1313/</link>
+    <link>http://liaoqinchao.github.io/</link>
     <description>Recent content on Hacking lifet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2014 - 2015, Liaoqinchao; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 28 Nov 2015 10:36:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hello world!!!!</title>
-      <link>http://localhost:1313/post/hello/</link>
-      <pubDate>Sat, 28 Nov 2015 10:36:55 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/hello/</guid>
-      <description>
-
-&lt;h1 id=&#34;简约:8a07c3dae13f18d0c06cf5f9e482b173&#34;&gt;简约&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;这是个极简约的博客。还需要添加一些东西才能达到我心里的预期。想大概做成django 那样子文档形式的风格。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;后期功能完善:8a07c3dae13f18d0c06cf5f9e482b173&#34;&gt;后期功能完善&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;浮动或固定目录&lt;/li&gt;
-&lt;li&gt;文章中添加跳转锚点&lt;/li&gt;
-&lt;li&gt;参考hugo 官方文档的风格。&lt;/li&gt;
-&lt;li&gt;添加友链，CV等。&lt;/li&gt;
-&lt;li&gt;美化（包括图标，CSS调整，文章整体背景色调整为不伤眼的颜色）&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hack</title>
-      <link>http://localhost:1313/post/hack/</link>
-      <pubDate>Sat, 28 Nov 2015 10:04:57 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/hack/</guid>
-      <description>
-
-&lt;h1 id=&#34;python-类方法和实例方法区别:ac717c7de7aa19a9b48c2d931e980232&#34;&gt;python 类方法和实例方法区别&lt;/h1&gt;
-
-&lt;h2 id=&#34;python-classmethod类方法的要点主要有3个:ac717c7de7aa19a9b48c2d931e980232&#34;&gt;python classmethod类方法的要点主要有3个：&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在python中.类方法 @classmethod 是一个函数修饰符，它表示接下来的是一个类方法，而对于平常我们见到的则叫做实例方法。 类方法的第一个参数cls，而实例方法的第一个参数是self，表示该类的一个实例。&lt;/li&gt;
-&lt;li&gt;普通对象方法至少需要一个self参数，代表类对象实例&lt;/li&gt;
-&lt;li&gt;类方法有类变量cls传入，从而可以用cls做一些相关的处理。并且有子类继承时，调用该类方法时，传入的类变量cls是子类，而非父类。 对于类方法，可以通过类来调用，就像C.f()，有点类似C＋＋中的静态方法, 也可以通过类的一个实例来调用，就像C().f()，这里C()，写成这样之后它就是类的一个实例了&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
+    <atom:link href="http://liaoqinchao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
